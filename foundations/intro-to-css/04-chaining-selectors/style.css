@@ -1,1 +1,18 @@
-/* Add CSS Styling */
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+
+}
+/* A very important issue I ran into here. 
+
+You cannot do .avatar, .proportioned. This messess everything up 
+you need to have no comma and then on white space. the comman means
+an OR gate, while no comma is AND gate. 
+
+*/
