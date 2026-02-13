@@ -3,6 +3,10 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* must use align-items, as align-content only applies if multiple items */
 }
 
 .box {
@@ -12,4 +16,10 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+  /* display: flexbox;
+  justify-content: center;
+  align-content: center; */
+
+  /* as .box is a child of container, It was wrong to apply the styling here
+  first. It has to be applied to .container */
 }
