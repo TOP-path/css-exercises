@@ -7,14 +7,17 @@ body {
   background: #eee;
   font-family: Besley, serif;
   display: flex;
+  /* width: 100%; */
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  box-shadow: 0 0 8px rgba(231, 63, 63, 0.1);
   display: flex;
-  flex-basis: 100%;
+  /* flex-basis: 100%; */
+  flex: 1 1 100%;
+  padding: 8px;
 }
 
 .profile-image {
@@ -30,6 +33,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  
 }
 
 button {
@@ -50,8 +54,17 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 8px;
+  width: 100%;
 }
 
 links {
   display: flex;
+}
+
+.right {
+  display: flex;
+  justify-content: end;
+  align-self: center;
+  width: 100%;
+  gap: 8px;
 }
